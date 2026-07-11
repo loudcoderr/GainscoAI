@@ -8,7 +8,7 @@ export class Api {
 
   private http = inject(HttpClient);
 
-  private api = 'http://localhost:5080';
+  private apiUrl = 'https://gainscoai-api-h6gcaefthacxdxes.centralus-01.azurewebsites.net';
 
   upload(file: File) {
 
