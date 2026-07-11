@@ -4,67 +4,66 @@
 
 .navbar{
 
-    position:sticky;
-    top:10;
-    z-index:1000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    padding:0px 60px;
+    padding: 14px 60px;   /* was around 8px */
 
-    background:rgba(18,18,22,.85);
+    backdrop-filter: blur(16px);
 
-    backdrop-filter:blur(14px);
+    border-bottom: 1px solid rgba(255,255,255,.08);
 
-    border-bottom:0px solid rgba(255,255,255,.08);
-}
-.logo-icon{
-
-    width:65px;
-    height:90px;
-
-    border-radius:20px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    font-weight:700;
-
-    color:white;
-
-    background:linear-gradient(135deg,#4f46e5,#06b6d4);
-
-    box-shadow:0 8px 20px rgba(79,70,229,.35);
 }
 
-.logo-text{
+.brand-blue{
 
-    display:flex;
-    flex-direction:column;
-    line-height:18px;
+    color:rgba(243, 118, 90);
 
-    color:white;
 }
 
-.logo-text span{
+.brand-ai{
 
-    font-size:15px;
-    color:#d1d5db;
+    background:linear-gradient(90deg,#2563eb,#06b6d4);
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    background-clip:text;
+
 }
 
-.logo-text strong{
-
-    font-size:22px;
-    font-weight:700;
-}
 
 .nav-links{
 
     display:flex;
     gap:18px;
+}
+.brand-name{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:5px;
+
+    font-size:32px;
+
+    font-weight:750;
+
+    letter-spacing:-2px;
+
+    line-height:1;
+
+    color:#ffffff;
+
+    text-shadow:0 2px 15px rgba(37,99,235,.25);
+
 }
 
 .nav-links a{
@@ -96,11 +95,6 @@
     box-shadow:0 8px 20px rgba(79,70,229,.25);
 }
 
-.right-side{
-
-    display:flex;
-    align-items:center;
-}
 
 
 .github-btn:hover{
@@ -112,31 +106,6 @@
 
 @media(max-width:768px){
 
-.navbar{
 
-padding:18px;
-flex-wrap:wrap;
-gap:20px;
-
-}
-
-.nav-links{
-
-width:100%;
-justify-content:center;
-
-}
-.right-side{
-
-display:none;
-
-}
-
-}
-.hero{
-
-    padding:20px 0 15px;
-
-    margin-bottom:20px;
 
 }
