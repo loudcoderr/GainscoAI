@@ -1,0 +1,111 @@
+footer{
+
+    margin-top:45px;
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+}
+.glass-card{
+
+    max-width:900px;
+
+    margin:60px auto;
+
+    padding:50px;
+
+    border-radius:24px;
+
+    background:rgba(22,28,45,.70);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.35);
+
+    color:white;
+
+}
+
+.upload-header{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.upload-header h2{
+
+    font-size:38px;
+
+    font-weight:700;
+
+}
+
+.upload-header p{
+
+    color:#b7bfd5;
+
+    margin-top:10px;
+
+    font-size:17px;
+
+}
+
+.form-control{
+
+    background:#111827;
+
+    color:white;
+
+    border:1px solid #334155;
+
+}
+
+.form-control:focus{
+
+    background:#111827;
+
+    color:white;
+
+    border-color:#4f9dff;
+
+    box-shadow:0 0 20px rgba(79,157,255,.25);
+
+}
+
+.btn-upload{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:14px;
+
+    padding:15px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.btn-upload:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(37,99,235,.4);
+
+}

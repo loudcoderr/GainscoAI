@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body{
+
+margin:0;
+
+font-family:Inter,Segoe UI,Roboto,sans-serif;
+
+background:#0f172a;
+
+background-image:
+
+radial-gradient(circle at top right,#1d4ed8 0%,transparent 35%),
+radial-gradient(circle at bottom left,#7c3aed 0%,transparent 40%);
+
+min-height:100vh;
+
+color:white;
+}
+
+*{
+
+box-sizing:border-box;
+
+}

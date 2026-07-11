@@ -1,0 +1,65 @@
+.home{
+
+    min-height: calc(100vh - 85px); /* subtract navbar height */
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+}
+.hero{
+
+    min-height:70vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:20px;
+}
+
+.hero h1{
+
+    font-size:56px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+}
+
+.hero p{
+
+    font-size:22px;
+
+    color:#cbd5e1;
+
+    max-width:700px;
+}
+footer{
+
+    margin-top:45px;
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+}
