@@ -1,0 +1,6 @@
+@GainscoAI.Api_HostAddress = http://localhost:5080
+
+GET {{GainscoAI.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

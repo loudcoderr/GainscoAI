@@ -1,0 +1,37 @@
+<div class="card shadow">
+
+  <div class="card-header">
+    <h3>AI Chat</h3>
+  </div>
+
+  <div class="card-body">
+
+    <textarea
+      class="form-control"
+      rows="3"
+      [(ngModel)]="question"
+      placeholder="Ask a question...">
+    </textarea>
+
+    <button
+      class="btn btn-success mt-3"
+      (click)="ask()"
+      [disabled]="loading">
+
+      {{ loading ? 'Thinking...' : 'Ask AI' }}
+
+    </button>
+
+    <hr>
+
+    <h5>Answer</h5>
+
+    <div class="alert alert-light border">
+
+      {{ answer }}
+
+    </div>
+
+  </div>
+
+</div>
