@@ -8,7 +8,7 @@ export class Api {
 
   private http = inject(HttpClient);
 
-  private apiUrl = 'https://gainscoai-api-h6gcaefthacxdxes.centralus-01.azurewebsites.net';
+  private api = 'https://gainscoai-api-h6gcaefthacxdxes.centralus-01.azurewebsites.net';
 
   upload(file: File) {
 
